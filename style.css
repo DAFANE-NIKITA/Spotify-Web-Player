@@ -1,0 +1,1448 @@
+* {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-theme {
+    background-color: black;
+}
+
+#first-box {
+    width: 25%;
+    height: 150px;
+    background-color: #9e9e9e2e;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+}
+
+#first-box .fa-spotify {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 200;
+}
+
+#first-box .spotify-text {
+    font-size: 20px;
+    margin: 20px 0 0 -20px;
+    cursor: pointer;
+}
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0 0 50px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass,
+.fa-house {
+    position: absolute;
+    margin: 10px 0 0 20px;
+}
+
+.fa-magnifying-glass {
+    color: #ffffff54;
+}
+
+.fa-magnifying-glass,
+.search-link {
+    color: #ffffff54;
+}
+
+.search-link:hover,
+.fa-magnifying-glass:hover {
+    color: white;
+}
+
+#second-box {
+    width: 25%;
+    height: 60vh;
+    background-color: #48434373;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+}
+
+.Your-Library {
+    margin: 2% 0 0 13%;
+    position: relative;
+    display: inline-block;
+}
+
+.Your-Library .Collapse-Your-Library {
+    visibility: hidden;
+    background-color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    width: 140%;
+    margin: -25% 0 0 -120%;
+}
+
+.Your-Library:hover .Collapse-Your-Library {
+    visibility: visible;
+}
+
+.fa-bookmark,
+.Your-Library {
+    font-size: 20px;
+    color: gray;
+}
+
+.fa-bookmark {
+    margin: 4% 0 0 17px;
+    position: absolute;
+}
+
+.fa-bookmark:hover,
+.Your-Library:hover {
+    color: white;
+}
+
+.fa-plus {
+    margin: 10px 0 0 40%;
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+}
+
+.fa-plus:hover {
+    color: white;
+}
+
+.Your-plus {
+    margin: 1% 0 0 32%;
+    position: relative;
+    display: inline-block;
+}
+
+.Your-plus .PlayList-Or-Folder {
+    visibility: hidden;
+    background-color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    width: 600%;
+    margin: -5rem 0 0 -400%;
+}
+
+.Your-plus:hover .PlayList-Or-Folder {
+    visibility: visible;
+}
+
+.scroll-bar {
+    width: 95%;
+    height: 100px;
+    margin: 30px 0 0 10px;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+.scroll-bar::-webkit-scrollbar {
+    height: 100%;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+.card-first {
+    width: 80%;
+    height: 80px;
+    background-color: #00000054;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: start;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.CreatePlaylistBtn,
+.BrowsePodcastsBtn {
+    width: 150px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 700
+}
+
+.card-second {
+    width: 80%;
+    height: 130px;
+    background-color: #00000054;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: start;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 10px 0 0 0;
+}
+
+.cookies-list,
+.taxtLink {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 12px;
+    margin: 4px;
+}
+
+.Language-button {
+    width: 30%;
+    padding: 8px;
+    margin: 10px 0 0 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    word-spacing: 0px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+#thired-box {
+    width: 72%;
+    height: 85vh;
+    background-color: #9e9e9e2e;
+    margin: 10px;
+    border-radius: 5px;
+    position: absolute;
+    color: white;
+    margin: -34.6rem 0 0 22.3rem;
+}
+
+.line {
+    width: 100%;
+    height: 80px;
+    background-color: #000000a3;
+    border-radius: 6px;
+}
+
+.left,
+.right {
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: no-drop;
+    background-color: #000000bf;
+    margin: 10px;
+}
+
+.signupBtn {
+    background: transparent;
+    border: transparent;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 60%;
+}
+
+.signupBtn:hover {
+    color: white;
+    transform: scale(1.1)
+}
+
+.loginBtn {
+    width: 10%;
+    height: 40px;
+    background: white;
+    border: transparent;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 3%;
+    border-radius: 30px;
+    color: black;
+}
+
+.loginBtn:hover {
+    transform: scale(1.1);
+}
+
+.Popular-artists {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    margin: 2% 0 0 5%;
+}
+
+.Show-all {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    margin-left: 89%;
+    margin-top: 2%;
+}
+
+.Show-all:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.scroll-container {
+    width: 98%;
+    /* Adjust width as needed */
+    height: 57vh;
+    /* Adjust height as needed */
+    overflow: auto;
+    /* This property creates the scrollbar */
+    padding: 10px;
+    /* Optional: adds some padding inside the container */
+    margin: 5rem 0 0 0;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 12px;
+    /* Adjust the width of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar handle */
+    border-radius: 10px;
+    /* Rounds the corners of the scrollbar handle */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color of the scrollbar handle on hover */
+}
+
+.all-popular-artists {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.first-artists {
+    width: 20%;
+    height: 290px;
+    margin: 5px;
+    border-radius: 5px;
+    position: absolute;
+    transition: 1s;
+
+}
+
+.first-artists:hover {
+    background-color: #00000047;
+    visibility: visible;
+    cursor: pointer;
+}
+
+#arjitsingh {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 0 20px;
+}
+
+.Artists-Name {
+    position: absolute;
+    margin: 13rem 0 0 10px;
+    color: white;
+}
+
+.Artists {
+    position: absolute;
+    margin: 15rem 0 0 10px;
+    color: gray;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.first-artists:hover .curcle {
+    visibility: visible;
+}
+
+.second-artists {
+    width: 20%;
+    height: 290px;
+    margin: 5px 0 0 20%;
+    border-radius: 5px;
+    position: absolute;
+    transition: 1s;
+}
+
+.second-artists:hover {
+    background-color: #00000047;
+    visibility: visible;
+    cursor: pointer;
+}
+
+#pritam {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 0 20px;
+}
+
+.Artists-Name {
+    position: absolute;
+    margin: 13rem 0 0 10px;
+    color: white;
+}
+
+.Artists {
+    position: absolute;
+    margin: 15rem 0 0 10px;
+    color: gray;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.second-artists:hover .curcle {
+    visibility: visible;
+}
+
+.thired-artists {
+    width: 20%;
+    height: 290px;
+    margin: 5px 0 0 40%;
+    border-radius: 5px;
+    position: absolute;
+    transition: 1s;
+}
+
+.thired-artists:hover {
+    background-color: #00000047;
+    visibility: visible;
+    cursor: pointer;
+}
+
+#SachinJigar {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 0 20px;
+}
+
+.Artists-Name {
+    position: absolute;
+    margin: 13rem 0 0 10px;
+    color: white;
+}
+
+.Artists {
+    position: absolute;
+    margin: 15rem 0 0 10px;
+    color: gray;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.thired-artists:hover .curcle {
+    visibility: visible;
+}
+
+.four-artists {
+    width: 20%;
+    height: 290px;
+    margin: 5px 0 0 60%;
+    border-radius: 5px;
+    position: absolute;
+    transition: 1s;
+}
+
+.four-artists:hover {
+    background-color: #00000047;
+    visibility: visible;
+    cursor: pointer;
+}
+
+#Anirudth {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 0 20px;
+}
+
+.Artists-Name {
+    position: absolute;
+    margin: 13rem 0 0 10px;
+    color: white;
+}
+
+.Artists {
+    position: absolute;
+    margin: 15rem 0 0 10px;
+    color: gray;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.four-artists:hover .curcle {
+    visibility: visible;
+}
+
+.five-artists {
+    width: 19%;
+    height: 290px;
+    margin: 5px 0 0 80%;
+    border-radius: 5px;
+    position: absolute;
+    transition: 1s;
+}
+
+.five-artists:hover {
+    background-color: #00000047;
+    visibility: visible;
+    cursor: pointer;
+}
+
+#vishalmishra {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 0 20px;
+}
+
+.Artists-Name {
+    position: absolute;
+    margin: 13rem 0 0 10px;
+    color: white;
+}
+
+.Artists {
+    position: absolute;
+    margin: 15rem 0 0 10px;
+    color: gray;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.five-artists:hover .curcle {
+    visibility: visible;
+}
+
+.Popular-Albums {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    margin: 2% 0 0 5%;
+}
+
+.Show-all-second {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    margin-left: 42rem;
+    margin-top: 3%;
+}
+
+.Show-all-second:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.all-popular-albums {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.first-card {
+    width: 20%;
+    height: 18rem;
+    margin: 10px 0 0 -1px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+#Aashiqui2 {
+    position: absolute;
+    width: 10.1rem;
+    height: 12rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 5px 5px 12px;
+}
+
+.first-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.first-card:hover .curcle {
+    visibility: visible;
+}
+
+.aashiqui2-sub-heading {
+    color: white;
+    margin-left: 1rem;
+    position: absolute;
+    margin-top: 13rem;
+    text-align: center;
+}
+
+.firstCard-first-careters {
+    margin: 14.1rem 0 0 1rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.firstCard-second-careters {
+    margin: 15.4rem 0 0 1rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.firstCard-thired-careters {
+    margin: 14.1rem 0 0 5rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.second-card {
+    width: 20%;
+    height: 18rem;
+    margin: 10px 0 0 19%;
+    position: absolute;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#KaranAujla {
+    position: absolute;
+    width: 10.1rem;
+    height: 12rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 5px 5px 12px;
+}
+
+.second-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.second-card:hover .curcle {
+    visibility: visible;
+}
+
+.MakingMemories-sub-heading {
+    color: white;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top: 13rem;
+    text-align: center;
+}
+
+.secondCard-first-careters {
+    margin: 14.1rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.secondCard-second-careters {
+    margin: 15.4rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.thired-card {
+    width: 20%;
+    height: 18rem;
+    margin: 10px 0 0 39%;
+    position: absolute;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#Animal {
+    position: absolute;
+    width: 10.1rem;
+    height: 12rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 5px 5px 12px;
+}
+
+.thired-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.thired-card:hover .curcle {
+    visibility: visible;
+}
+
+.ANIMAL-sub-heading {
+    color: white;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top: 13rem;
+    text-align: center;
+}
+
+.thiredCard-first-careters {
+    margin: 14.1rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.thiredCard-second-careters {
+    margin: 15.4rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.thiredCard-thired-careters {
+    margin: 16.4rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.four-card {
+    width: 20%;
+    height: 18rem;
+    margin: 10px 0 0 59%;
+    position: absolute;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#Sajani {
+    position: absolute;
+    width: 10.1rem;
+    height: 12rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 5px 5px 12px;
+}
+
+.four-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.four-card:hover .curcle {
+    visibility: visible;
+}
+
+.Sajni-sub-heading {
+    color: white;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top: 13rem;
+    text-align: center;
+}
+
+.fourCard-first-careters {
+    margin: 14.1rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.fourCard-second-careters {
+    margin: 15.4rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.fourCard-thired-careters {
+    margin: 16.4rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+
+.five-card {
+    width: 20%;
+    height: 18rem;
+    margin: 10px 0 0 79%;
+    position: absolute;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#Moosetap {
+    position: absolute;
+    width: 10.1rem;
+    height: 12rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 5px 5px 12px;
+}
+
+.five-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 9rem 0 0 8rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.five-card:hover .curcle {
+    visibility: visible;
+}
+
+.Moosetape-sub-heading {
+    color: white;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top: 13rem;
+    text-align: center;
+}
+
+.fiveCard-first-careters {
+    margin: 14.1rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.fiveCard-second-careters {
+    margin: 15.4rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.fiveCard-thired-careters {
+    margin: 16.4rem 0 0 2rem;
+    position: absolute;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+.Popular-radio-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    margin-left: 5%;
+    margin-top: -19.6rem;
+
+}
+
+.Show-all-thired {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    margin-left: 42rem;
+    margin-top: -7%;
+}
+
+.Show-all-thired:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.popular-radio {
+    width: 59rem;
+    height: 14rem;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    position: relative;
+}
+
+.first-radio-card {
+    width: 11rem;
+    height: 13rem;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#N-K-K-A-P {
+    position: absolute;
+    width: 9rem;
+    height: 10rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 0px 0px 15px;
+}
+
+.Neha-Kakkar-Pritam {
+    color: gray;
+    position: absolute;
+    margin: 11rem 0 0 10px;
+}
+
+.first-radio-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle-radio-first {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 7rem 0 0 6rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.first-radio-card:hover .curcle-radio-first {
+    visibility: visible;
+}
+
+
+
+.second-radio-card {
+    width: 11rem;
+    height: 13rem;
+    margin-left: 12rem;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#Shankar-Anirudh {
+    position: absolute;
+    width: 9rem;
+    height: 10rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 0px 0px 20px;
+}
+
+.ARR-Anirudth {
+    color: gray;
+    position: absolute;
+    margin: 11rem 0 0 10px;
+}
+
+.second-radio-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle-radio-second {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 7rem 0 0 6rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.second-radio-card:hover .curcle-radio-second {
+    visibility: visible;
+}
+
+.thired-radio-card {
+    width: 11rem;
+    height: 13rem;
+    margin-left: 23.3rem;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#Mohit-Ankit {
+    position: absolute;
+    width: 9rem;
+    height: 10rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 0px 0px 20px;
+}
+
+.KK-Mohit {
+    color: gray;
+    position: absolute;
+    margin: 11rem 0 0 10px;
+}
+
+.thired-radio-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle-radio-thired {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 7rem 0 0 6rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.thired-radio-card:hover .curcle-radio-thired {
+    visibility: visible;
+}
+
+.four-radio-card {
+    width: 11rem;
+    height: 13rem;
+    margin-left: 34.5rem;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#Garry-Diljit {
+    position: absolute;
+    width: 9rem;
+    height: 10rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 0px 0px 20px;
+}
+
+.SonuNigam_sheryaGoshal {
+    color: gray;
+    position: absolute;
+    margin: 11rem 0 0 10px;
+}
+
+.four-radio-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle-radio-four {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 7rem 0 0 6rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.four-radio-card:hover .curcle-radio-four {
+    visibility: visible;
+}
+
+.five-radio-card {
+    width: 11rem;
+    height: 13rem;
+    margin-left: 46rem;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#sherya-Goshal {
+    position: absolute;
+    width: 9rem;
+    height: 10rem;
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px 0px 0px 20px;
+}
+
+.Garry-Sandhu-Ranjit {
+    color: gray;
+    position: absolute;
+    margin: 11rem 0 0 10px;
+}
+
+.five-radio-card:hover {
+    background-color: #0000004f;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.curcle-radio-five {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 20%;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    margin: 7rem 0 0 6rem;
+    visibility: hidden;
+
+}
+
+.fa-play {
+    margin: 9.5px 0 0 12px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+.five-radio-card:hover .curcle-radio-five {
+    visibility: visible;
+}
+footer{
+    display:inline-flex;
+    margin-top:40px;
+}
+.Company {
+    margin: 40px 0 0 40px;
+}
+
+.com-pany {
+    color: gray;
+    margin: 0 0 0 40px;
+}
+.Communities{
+    margin: 0 0 0 40px;
+}
+.Commu-nities,li,a{
+    list-style:none;
+    text-decoration:none;
+    color:gray;
+}
+.Useful-links{
+    margin:0 0 0 50px;
+}
+.Support-mobileApp{
+    color:gray;
+}
+.Spotify-Plans{
+    margin:40px;
+}
+.spotify_free{
+    color:gray;
+}
+#facebook_icon,#twitter_icon,#instagram_icon{
+    display:block;
+    margin-left:3rem;
+    margin-top:3rem;
+    position:relative;
+    font-size:1.3rem;
+    transition:0s;
+}
+#facebook_icon:hover,#twitter_icon:hover,#instagram_icon:hover{
+    transform:scale(1.6);
+}
+.hr-line{
+    border:1px solid gray;
+    height:0.1px;
+    margin:10px 0 0 2rem;
+    width:90%;
+}
+.Spotify-AB{
+    color:gray;
+    margin:5rem 0 0 40px;
+position:relative;
+}
+#music-player{
+    width:97.5%;
+    height:70px;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    border-radius:5px;
+    margin:0 0 0 10px;
+}
+.Preview-Of-Spotify{
+    color:white;
+    margin:10px;
+}
+.Unlimited-Songs-And-Podcasts{
+     color:white;
+    margin:10px;
+}
+#singup{
+    position:absolute;
+    margin:-3rem 0 0 70rem;
+    border:transparent;
+    background-color:white;
+    padding:10px;
+    border-radius:25px;
+    font-weight:900;
+}
+

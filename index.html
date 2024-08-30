@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Web Player: Music for everyone</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="icon" type="logo" href="Spotify_icon.svg.webp">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body class="dark-theme">
+        <div id="first-box">
+            <i class="fa-brands fa-spotify"></i>
+            <span class="spotify-text" title="Spotify">Spotify</span>
+            <ul>
+                <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i><a href="#" class="search-link">Search</a></li>
+            </ul>
+        </div>
+        <div id="second-box">
+            <i class="fa-regular fa-bookmark"></i>
+            <div class="Your-Library">Your Library
+                <span class="Collapse-Your-Library">Collapse Your Library</span>
+            </div>
+            <div class="Your-plus"><i class="fa-solid fa-plus"></i>
+                <span class="PlayList-Or-Folder">Create PlayList Or Folder </span>
+            </div>
+            <div class="scroll-bar">
+                <div class="card-first">
+                    <h3>Create Your First Playlist</h3>
+                    <p>It's easy,we'll help you</p>
+                    <button class="CreatePlaylistBtn">Create Playlist</button>
+                </div>
+                <div class="card-second">
+                    <h3>Let's find some podcasts to follow</h3>
+                    <p>We'll keep you updated on new</p>
+                    <button class="BrowsePodcastsBtn">Browse Podcasts</button>
+                </div>
+            </div>
+            <div class="cookies-list">
+                <a href="#" class="taxtLink">Legal</a>
+                <a href="#" class="taxtLink">Safety & Pricvacy Center</a>
+                <a href="#" class="taxtLink">Privacy Policy</a>
+                <a href="#" class="taxtLink">Cookies</a>
+                <a href="#" class="taxtLink">About Us</a>
+                <a href="#" class="taxtLink">Accessibility</a>
+                <a href="#" class="taxtLink">Cookies</a>
+            </div>
+            <button class="Language-button"><i class="fa-solid fa-globe"></i> English</button>
+        </div>
+        <div id="thired-box">
+            <div class="line">
+                <div class="left"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="right"><i class="fa-solid fa-chevron-right"></i></div>
+                <button class="signupBtn">Sign Up</button>
+                <button class="loginBtn">Log in</button>
+            </div>
+            <a href="#" class="Popular-artists">Popular artists</a>
+            <a href="#" class="Show-all">Show All</a>
+
+            <div class="scroll-container">
+                <div class="all-popular-artists">
+                    <div class="first-artists">
+                        <img src="arjitsingh.jpeg" alt="" id="arjitsingh">
+                        <span class="Artists-Name">Arjit Singh</span>
+                        <span class="Artists">Artists</span>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song">
+                                
+                            </i>
+                        </div>
+                    </div>
+                    <div class="second-artists">
+                        <img src="pritam.jpeg" alt="" id="pritam">
+                        <span class="Artists-Name">Pritam</span>
+                        <span class="Artists">Artists</span>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+
+                    <div class="thired-artists">
+                        <img src="Sachin-Jigar.jpeg" alt="" id="SachinJigar">
+                        <span class="Artists-Name">Sachin Jigar</span>
+                        <span class="Artists">Artists</span>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                    <div class="four-artists">
+                        <img src="Anirudth.jpeg" alt="" id="Anirudth">
+                        <span class="Artists-Name">Anirudth</span>
+                        <span class="Artists">Artists</span>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                    <div class="five-artists">
+                        <img src="Vishal Mishra.jpeg" alt="" id="vishalmishra">
+                        <span class="Artists-Name">Vishal Mishra</span>
+                        <span class="Artists">Artists</span>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="Popular-Albums">Popular Albums</a>
+                <a href="#" class="Show-all-second">Show All</a>
+                <div class="all-popular-albums">
+                    <div class="first-card">
+                        <img src="WhatsApp Image 2024-08-26 at 10.34.41_df86c7d2.jpg" alt="" id="Aashiqui2">
+                        <span class="aashiqui2-sub-heading">Aashiqui 2</span>
+                        <a href="#" class="firstCard-first-careters">Mithoon,</a>
+                        <a href="#" class="firstCard-second-careters">Ankit Tiwari</a>
+                        <a href="#" class="firstCard-thired-careters">Jeet Gannguli</a>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+
+                    <div class="second-card">
+                        <img src="WhatsApp Image 2024-08-26 at 10.34.41_6b4b9e97.jpg" alt="" id="KaranAujla">
+                        <span class="MakingMemories-sub-heading">Making Memories</span>
+                        <a href="#" class="secondCard-first-careters">Karan Aujla</a>
+                        <a href="#" class="secondCard-second-careters">Ikky</a>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                    <div class="thired-card">
+                        <img src="WhatsApp Image 2024-08-26 at 10.34.40_cf2ed14d.jpg" alt="" id="Animal">
+                        <span class="ANIMAL-sub-heading">ANIMAL</span>
+                        <a href="#" class="thiredCard-first-careters">Manan Bhardwaj,</a>
+                        <a href="#" class="thiredCard-second-careters">Vishal Mishra</a>
+                        <a href="#" class="thiredCard-thired-careters">Jaani</a>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+
+                    <div class="four-card">
+                        <img src="WhatsApp Image 2024-08-26 at 10.34.40_d95c2cf0.jpg" alt="" id="Sajani">
+                        <span class="Sajni-sub-heading">Sajni</span>
+                        <a href="#" class="fourCard-first-careters">Ram Sampath,</a>
+                        <a href="#" class="fourCard-second-careters">Arjit Singh</a>
+                        <a href="#" class="fourCard-thired-careters">Prashant...</a>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+
+                    <div class="five-card">
+                        <img src="WhatsApp Image 2024-08-26 at 10.34.40_2234fe83.jpg" alt="" id="Moosetap">
+                        <span class="Moosetape-sub-heading">Moosetape</span>
+                        <a href="#" class="fiveCard-first-careters">Sidhu Moose Wala,</a>
+                        <div class="curcle">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a href="#" class="Popular-radio-link">Popular Radio</a>
+                <a href="#" class="Show-all-thired">Show All</a>
+                <div class="popular-radio">
+                    <div class="first-radio-card">
+                        <img src="arjithSingh Radio.jpeg" alt="" id="N-K-K-A-P">
+                        <span class="Neha-Kakkar-Pritam">Neha Kakkar,Pritam</span>
+                        <div class="curcle-radio-first">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                    <div class="second-radio-card">
+                        <img src="ARR.jpg" alt="" id="Shankar-Anirudh">
+                        <span class="ARR-Anirudth">ARR,Anirudth</span>
+                        <div class="curcle-radio-second">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                    <div class="thired-radio-card">
+                        <img src="kk.jpg" alt="" id="Mohit-Ankit">
+                        <span class="KK-Mohit">KK,Mohit</span>
+                        <div class="curcle-radio-thired">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                    <div class="four-radio-card">
+                        <img src="shreya Ghoshal.jpg" alt="" id="sherya-Goshal">
+                        <span class="SonuNigam_sheryaGoshal">Sonu Nigam,sherya G</span>
+                        <div class="curcle-radio-four">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                    <div class="five-radio-card">
+                        <img src="Diljit.jpg" alt="" id="Garry-Diljit">
+                        <span class="Garry-Sandhu-Ranjit">Garry Sandhu,Ranjit</span>
+                        <div class="curcle-radio-five">
+                            <i class="fa-solid fa-play" title="Play Song"></i>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <ul>
+                        <span class="Company">Company</span>
+                        <li><a href="#" class="com-pany">About</a></li>
+                        <li><a href="#" class="com-pany">Jobs</a></li>
+                        <li><a href="#" class="com-pany">For the Record</a></li>
+                    </ul>
+                    <ul>
+                        <span class="Communities">Communities</span>
+                        <li><a href="#" class="Commu-nities">For Artists</a></li>
+                        <li><a href="#" class="Commu-nities">Developers</a></li>
+                        <li><a href="#" class="Commu-nities">Advertising</a></li>
+                        <li><a href="#" class="Commu-nities">Investors</a></li>
+                        <li><a href="#" class="Commu-nities">Vendors</a></li>
+                    </ul>
+                    <ul>
+                        <span class="Useful-links">Useful links</span>
+                        <li><a href="#" class="Support-mobileApp">Support</a></li>
+                        <li><a href="#" class="Support-mobileApp">Free Mobile App</a></li>
+                    </ul>
+                    <ul>
+                        <span class="Spotify-Plans">Spotify Plans</span>
+                        <li><a href="#" class="spotify_free">Premium Individual</a></li>
+                        <li><a href="#" class="spotify_free">Premium Duo</a></li>
+                        <li><a href="#" class="spotify_free">Premium Family</a></li>
+                        <li><a href="#" class="spotify_free">Premium Student</a></li>
+                        <li><a href="#" class="spotify_free">Spotify Free</a></li>
+                    </ul>
+                    <a href="https://www.facebook.com/NIKU1210"><i class="fa-brands fa-facebook"id="facebook_icon"></i></a>
+                    <a href="https://x.com/Nikita_dafane"><i class="fa-brands fa-twitter" id="twitter_icon"></i></a>
+                    <a href="https://www.instagram.com/nikita_dafane/?hl=en"><i class="fa-brands fa-instagram"
+                            id="instagram_icon"></i></a>
+                    </footer>
+                        <hr class="hr-line">
+                        <span class="Spotify-AB">© 2024 Spotify AB</span>
+            </div>
+        </div>
+<div id="music-player">
+    <span class="Preview-Of-Spotify">Preview Of Spotify</span>
+    <p class="Unlimited-Songs-And-Podcasts">Sign Up To Get Unlimited Songs And Podcasts With Occasional Ads.No creadit Card Needed.</p>
+<button id="singup">Sing Up For Free</button>
+</div>
+        <script src="spotify.js"></script>
+    </body>
+</html>
